@@ -12,7 +12,7 @@ So, we crafted the plugin we needed with the functionality we were looking for: 
 
 After generating the migration:
 
-  $ script/generate is_taggable_migration
+  $ script/rails generate is_taggable_migration
   $ rake db:migrate
 
 All you need is the 'is_taggable' declaration in your models:

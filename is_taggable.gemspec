@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Daniel Haran", "James Golick", "GiraffeSoft Inc."]
   s.date = %q{2009-02-16}
   s.email = %q{chebuctonian@mgmail.com}
-  s.files = ["README.rdoc", "VERSION.yml", "generators/is_taggable_migration", "generators/is_taggable_migration/is_taggable_migration_generator.rb", "generators/is_taggable_migration/templates", "generators/is_taggable_migration/templates/migration.rb", "lib/is_taggable.rb", "lib/tag.rb", "lib/tagging.rb", "test/is_taggable_test.rb", "test/tag_test.rb", "test/tagging_test.rb", "test/test_helper.rb"]
+  s.files = ["README.rdoc", "VERSION.yml", "lib/generators/is_taggable_migration", "lib/generators/is_taggable_migration/is_taggable_migration_generator.rb", "lib/generators/is_taggable_migration/templates", "lib/generators/is_taggable_migration/templates/migration.rb", "lib/is_taggable.rb", "lib/tag.rb", "lib/tagging.rb", "test/is_taggable_test.rb", "test/tag_test.rb", "test/tagging_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/giraffesoft/is_taggable}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
