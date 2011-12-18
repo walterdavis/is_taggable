@@ -20,7 +20,7 @@ module IsTaggable
 
   module ActiveRecordExtension
     def is_taggable(*kinds)
-      class_inheritable_accessor :tag_kinds
+      class_attribute :tag_kinds
       self.tag_kinds = kinds.map(&:to_s).map(&:singularize)
       self.tag_kinds << :tag if kinds.empty?
 
