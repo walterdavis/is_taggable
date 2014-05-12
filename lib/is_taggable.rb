@@ -33,8 +33,8 @@ module IsTaggable
       klass.class_eval do
         include IsTaggable::TaggableMethods::InstanceMethods
 
-        has_many   :taggings, :as      => :taggable, :dependent => :destroy
-        has_many   :tags,     :through => :taggings
+        has_many   :taggings, as: :taggable, dependent: :destroy
+        has_many   :tags,     through: :taggings
         after_save :save_tags
         before_save :save_cached_tags
 

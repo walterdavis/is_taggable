@@ -27,7 +27,7 @@ In your forms, add a text fields for "tag_list" and/or "language_list" (matching
 
 Calling is_taggable with any arguments defaults to a tag_list. Instantiating our polyglot user is easy:
 
-  User.new :tag_list => "rails, giraffesoft", :language_list => "english, french, spanish, latin, esperanto, tlhIngan Hol"
+  User.new tag_list: "rails, giraffesoft", language_list: "english, french, spanish, latin, esperanto, tlhIngan Hol"
 
 A comma is the default tag separator, but this can be easily changed:
 
