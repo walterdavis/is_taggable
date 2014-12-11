@@ -4,7 +4,8 @@ class Tag < ActiveRecord::Base
       with_name_like_and_kind(name, kind).first || new(name: name, kind: kind)
     end
   end
-
+  
+  attr_accessible :name, :kind
   has_many :taggings, dependent: :destroy
 
   validates_presence_of :name
