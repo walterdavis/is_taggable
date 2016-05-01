@@ -5,12 +5,12 @@ Gem::Specification.new do |s|
   s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Daniel Haran", "James Golick", "GiraffeSoft Inc."]
+  s.authors = ["Daniel Haran", "James Golick", "GiraffeSoft Inc.", "Walter Davis Studio"]
   s.date = %q{2009-02-16}
-  s.email = %q{chebuctonian@mgmail.com}
+  s.email = %q{waltd@wdstudio.com}
   s.files = ["README.rdoc", "VERSION.yml", "lib/generators/is_taggable_migration", "lib/generators/is_taggable_migration/is_taggable_migration_generator.rb", "lib/generators/is_taggable_migration/templates", "lib/generators/is_taggable_migration/templates/migration.rb", "lib/is_taggable.rb", "lib/tag.rb", "lib/tagging.rb", "test/is_taggable_test.rb", "test/tag_test.rb", "test/tagging_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/giraffesoft/is_taggable}
+  s.homepage = %q{http://github.com/walterdavis/is_taggable}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
