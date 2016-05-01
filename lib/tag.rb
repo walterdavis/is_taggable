@@ -5,7 +5,6 @@ class Tag < ActiveRecord::Base
     end
   end
   
-  attr_accessible :name, :kind
   has_many :taggings, dependent: :destroy
 
   validates_presence_of :name
